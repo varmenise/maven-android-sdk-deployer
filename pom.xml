@@ -137,7 +137,7 @@
         <artifactId>wagon-file</artifactId>
         <version>2.5</version>
       </extension>
-      <!-- Mark Prichard: added slf4j and wagin-webdav for deploying to CloudBees forge repo -->
+      <!-- Mark Prichard: added slf4j and wagon-webdav for deploying to CloudBees forge repo -->
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-webdav</artifactId>
@@ -148,6 +148,7 @@
         <artifactId>slf4j-api</artifactId>
         <version>1.6.1</version>
       </extension>
+      <!-- Mark Prichard: end -->
     </extensions>
     <plugins>
       <plugin>
